@@ -1,6 +1,7 @@
 xserver-xorg-video-fbdev xserver-xorg xinit xserver-xorg-video-fbturbo
 mousepad
 kde-plasma-desktop
+latte-dock
 zenity yad xdg-utils
 gvfs-backends gvfs-fuse
 lightdm gnome-themes-standard-data gnome-icon-theme
