@@ -15,7 +15,8 @@ else
 fi
 
 cat files/raspberrypi.gpg.key | gpg --dearmor > "${ROOTFS_DIR}/etc/apt/trusted.gpg.d/raspberrypi-archive-stable.gpg"
+cat files/oxmc7769@gmail.com.gpg.key | gpg --dearmor > "${ROOTFS_DIR}/etc/apt/trusted.gpg.d/snorain.gpg"
 on_chroot << EOF
 apt-get update
-apt-get dist-upgrade -y
+#apt-get dist-upgrade -y
 EOF
