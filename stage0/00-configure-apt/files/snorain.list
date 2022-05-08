@@ -1,1 +1,1 @@
-deb [trusted=true] https://snorain.github.io/QuintOS-apt/apt/debian ./
+deb http://apt.snorain.ml/ buster main
