@@ -3,7 +3,7 @@
 # Export files in stages may add suffixes to IMG_NAME.
 #
 # Default: unset
-IMG_NAME=SnorainOS
+IMG_NAME=ChillcraftOS
 
 # Instead of using traditional way of building the rootfs of every stage in single subdirectories
 # and copying over the previous one to the next one, qcow2 based virtual disks with backing images are used
@@ -86,7 +86,7 @@ RELEASE=buster
 # Setting the hostname to the specified value.
 #
 # Default: "raspberrypi"
-TARGET_HOSTNAME=snorainpi
+TARGET_HOSTNAME=chillpi
 
 # Default keyboard keymap.
 #
