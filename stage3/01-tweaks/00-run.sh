@@ -6,5 +6,6 @@ on_chroot << EOF
 	cp -r files/pi-greeter.conf /etc/lightdm/pi-greeter.conf
 	cp -r files/asplashscreen /etc/init.d/asplashscreen
 	sudo chmod a+x /etc/init.d/asplashscreen
-        sudo insserv /etc/init.d/asplashscreen
+	echo "Not enabling splash service, to enable it run: sudo insserv /etc/init.d/asplashscreen"
+        #sudo insserv /etc/init.d/asplashscreen
 EOF
