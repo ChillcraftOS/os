@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="input", RUN+="/etc/snorain/device/audio.sh 'conn'"
+ACTION=="remove", SUBSYSTEM=="input", RUN+="/etc/snorain/device/audio.sh 'disconn'"
