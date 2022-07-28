@@ -18,6 +18,7 @@ jobs:
           name: "Build IMG"
           command: |
             bash install-deps.sh
+            sudo modprobe binfmt_misc
             sudo ./build.sh
 
 # Invoke jobs via workflows
